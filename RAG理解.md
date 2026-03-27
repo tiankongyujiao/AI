@@ -27,10 +27,10 @@
 **RAG**
   图示构建 RAG 向量知识库的过程
   <img width="1329" height="490" alt="image" src="https://github.com/user-attachments/assets/a8b37829-ba20-40ff-9e94-27bd5812c767" />
-  1. 原始数据（Resource Data）:从各种来源收集原始数据，比如公司私有组件库的文档文本。
-  2. 分块（Chunking）:将资源数据细分为更小的块，称为Chunk。
-  3. 向量化（Embedding）:将每个Chunk转换为向量表示，便于后续根据向量进行语义相似度匹配。
-  4. 存储至向量数据库:将所有的Chunk和Embedding一一对应存储在向量数据库中，用于后续向量匹配检索出原始的 Chunk 数据。
+1. 原始数据（Resource Data）:从各种来源收集原始数据，比如公司私有组件库的文档文本。
+2. 分块（Chunking）:将资源数据细分为更小的块，称为Chunk。
+3. 向量化（Embedding）:将每个Chunk转换为向量表示，便于后续根据向量进行语义相似度匹配。
+4. 存储至向量数据库:将所有的Chunk和Embedding一一对应存储在向量数据库中，用于后续向量匹配检索出原始的 Chunk 数据。
 
 
 **RAG 向量检索过程的简单示例**
