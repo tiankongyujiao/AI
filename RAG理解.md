@@ -40,7 +40,7 @@
 3. 将用户需求的向量和向量数据库中的向量进行相似度匹配，检索出相似度高的数据源（Retrieval）。
 4. 将检索出的数据源和用户需求的问题组合（Augmented），一起输入给大模型（Generation）。
 
-RAG还可以做检索前优化和检索后优化。CRAG 的关键优化点：
+**RAG还可以做检索前优化和检索后优化**。CRAG 的关键优化点：
 <img width="702" height="135" alt="image" src="https://github.com/user-attachments/assets/7c1f04b5-7733-4e73-a259-b12b6596ce8d" />
 
 评估器模块（Evaluator）：
